@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h2 class="question">  This is the question ?</h2>
+        <div class="options">
+            <ul>
+                <li>
+                    <input type="radio" name="answer" value="a" id="opt_a" >
+                    <label for="option_a" id="option_a">Option A</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" value="b" id="opt_b">
+                    <label for="option_b" id="option_b">Option B</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" value="c" id="opt_c">
+                    <label for="option_c" id="option_c">Option C</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" value="d" id="opt_d">
+                    <label for="option_d" id="option_d">Option D</label>
+                </li>
+            </ul>
+        </div>
+        <button class="btn"> Submit</button>
+    </div>
+
+    <div class="score_hide">
+        <h1> You Scored : <span id="score_number"> </span> </h1>
+        <h3 id="comments"></h3>
+        <button class="btn_score">Try Again</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
