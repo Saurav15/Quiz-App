@@ -1,3 +1,2 @@
 # Quiz-App
-
-https://elegant-beaver-caebdc.netlify.app/
+https://quiz101.netlify.app/
