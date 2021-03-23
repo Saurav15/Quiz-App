@@ -1,35 +1,51 @@
 const quizData = [
     {
-        question: 'How old is Florin?',
-        a: '10',
-        b: '17',
-        c: '26',
-        d: '35',
-        correct: 'c'
-    },
-    {
-        question: 'What is the most used programming language in 2020?',
-        a: 'C',
-        b: 'Python',
-        c: 'Java',
-        d: 'JavaScript',
-        correct: 'd'
-    },
-    {
-        question: 'Who is the President of US?',
-        a: 'Florin Pop',
-        b: 'Donald Trump',
-        c: 'Ivan Salando',
-        d: 'Joe Biden',
-        correct: 'd'
-    },
-    {
-        question: 'What does HTML stands for?',
-        a: 'Hyper Text Markup Language',
-        b: 'Hello Text Makeup Language',
-        c: 'Hyper Text Makeup Language',
-        d: 'Hyper Text Mutual Language',
+        question: 'The first general purpose programmable electronic computer was …',
+        a: 'ENIAC',
+        b: 'MAC',
+        c: 'IBM',
+        d: 'UNEC',
         correct: 'a'
+    },
+    {
+        question: 'What does SSL stand for?',
+        a: ' Secure Socket Layer',
+        b: ' System Socket Layer',
+        c: ' Superuser System Login',
+        d: 'Secure System Login',
+        correct: 'a'
+    },
+    {
+        question: 'Which one is the first web browser invented in 1990',
+        a: 'Internet Explorer',
+        b: 'Mosiac',
+        c: 'Mozilla',
+        d: 'Nexus',
+        correct: 'd'
+    },
+    {
+        question: '.gif is an extension of ',
+        a: 'Image file',
+        b: 'Video file',
+        c: 'Audio file',
+        d: 'Word file',
+        correct: 'a'
+    },
+    {
+        question: 'What does acronym FOSS stand for?',
+        a: 'Free and Open-Source Software',
+        b: 'Full Option Sensor System',
+        c: 'Follow-On Support Service',
+        d: 'Fiber Optics Science System',
+        correct: 'a'
+    },
+    {
+        question: 'What technology is used to make telephone calls over the Internet possible?',
+        a: 'Bluetooth',
+        b: 'Ethernet',
+        c: 'NFC',
+        d: 'VoIP',
+        correct: 'd'
     }
 ];
 

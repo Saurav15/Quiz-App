@@ -16,14 +16,21 @@ body{
 
 }
 
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
 .container{
     /* border: 2px solid black; */
     width: 40%;
 
     /* Here container height = 40 total height = 100 thus to center = (100-40)/2 = 60/2 = 30 . Same goes for width*/
-    position: absolute;
+    /* position: absolute;
     top: 30%;
-    left: 30%;
+    left: 30%; */
     box-shadow: 0px 0px 12px 0px black;
     border-radius: 16px;
 }
@@ -82,8 +89,10 @@ body{
     html{
         font-size: 12px;
     }
-    h2{
-        font-size: 2rem;
+    .question{
+        font-size: 1.7rem;
+        padding: 10px;
+        margin: 1rem;
     }
 
     .container{
